@@ -11,7 +11,7 @@ int main() {
 	for (int i = 0; i < n; i++) {
 		cin >> a[i];
 	}
-	// create 'visited' bool vector
+	// create 'visited' bool vector with all 'false' values
 	vector<bool> visited(n, false);
 	// create 'cnt' to count the number of permutation cycles
 	int cnt = 0;
