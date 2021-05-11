@@ -19,7 +19,7 @@ int main() {
 		if (!visited[i]) {
 			// if it's not yet, visited then visit this i-th position
 			visited[i] = true;
-			// start the visiting the position at index 'a[i]' - 1
+			// start visiting the position at index 'a[i]' - 1
 			int index = a[i] - 1;
 			// create a while-loop until all values that were not visited are visited
 			while (!visited[index]) {
